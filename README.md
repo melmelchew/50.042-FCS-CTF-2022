@@ -12,6 +12,7 @@
 ## Attached Files
 
 - Lorem ipsum
+- to decrypt: e4sourceImg3.bmp with first 20 characters of answer of riddle
 
 ## Summary
 
