@@ -21,6 +21,7 @@ vid_link = b'https://www.youtube.com/watch?v=WstOprNWMpA'
 key = "2315"
 
 encrypted_text = encrypt(vid_link, key)
+# print(encrypted_text)
 # b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
 
 def decrypt(text, key):
@@ -29,10 +30,9 @@ def decrypt(text, key):
         in_key = get_key(key, i)
         textArr[i] = textArr[i] - int(in_key)
     
-    print(textArr)
+    # print(textArr)
     return textArr
 
-
-decrypt(encrypted_text, key)
+# decrypt(encrypted_text, key)
 
 
