@@ -1,5 +1,7 @@
-This txt file contains two paragraphs of ciphertext, each encrypted using different ciphers. The first ciphertext paragraph is encrypted using the Playfair cipher. You may make use of the playfair_go_and_do_yourself.py code to help you decrypt the ciphertext, or you can also solve the ciphertext by hand. Decrypt this ciphertext to reveal the answer to the riddle (key 1) and get hints to decrypt the second ciphertext paragraph. Use the decrypted second ciphertext paragraph to find the flag.
+This txt file contains 3 paragraphs. This first paragraph contains instructions for this challenge. The second paragraph below contains info for the flag, encrypted using Vignere cipher, could be decreypted using the key found from the encrypted image file. The third paragraph is encrypted with Playfair cipher, contains the answer to the riddle (key 1). This third paragraph is optional, is an alternative solution to this challenge for challengers who can’t solve the riddle.
 
-rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
+
 
 b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
+
+rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
