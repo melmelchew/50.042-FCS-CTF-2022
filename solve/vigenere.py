@@ -17,16 +17,22 @@ def encrypt(text, key):
     print(textArr)
     return textArr
 
-# #https://www.youtube.com/watch?v=WstOprNWMpA
+vid_link = b'https://www.youtube.com/watch?v=WstOprNWMpA'
+key = "2315"
 
-# def decrypt(text, key):
-#     textArr = bytearray(text)
-#     for i in range(len(textArr)):
-#         in_key = get_key(key, i)
-#         textArr[i] = textArr[i] - int(in_key)
+encrypted_text = encrypt(vid_link, key)
+# b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
+
+def decrypt(text, key):
+    textArr = bytearray(text)
+    for i in range(len(textArr)):
+        in_key = get_key(key, i)
+        textArr[i] = textArr[i] - int(in_key)
     
-#     print(textArr)
-#     return textArr
+    print(textArr)
+    return textArr
 
+
+decrypt(encrypted_text, key)
 
 
