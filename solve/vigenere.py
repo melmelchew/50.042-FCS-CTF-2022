@@ -20,7 +20,7 @@ def encrypt(text, key):
 vid_link = b'https://www.youtube.com/watch?v=WstOprNWMpA'
 key = "2315"
 
-encrypted_text = encrypt(vid_link, key)
+# encrypted_text = encrypt(vid_link, key)
 # print(encrypted_text)
 # b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
 

@@ -24,7 +24,7 @@ textfiles = f.read().split("\n\n")
 #==== decrypt textfile paragraph 2 =====#
 e_playfairText = textfiles[1]
 # print("\nencrypted para1: ", e_playfairText)
-d_playfairText = playfair.encrypt(e_playfairText)
+d_playfairText = playfair.decrypt(e_playfairText)
 print("\ndecrypted para1: ", d_playfairText)
 
 #===== decrypt textfile paragraph 3 =====#

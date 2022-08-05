@@ -109,9 +109,9 @@ def decrypt(ciphertext):
     return "".join(plaintext_arr)
 
 
-text = "The ciphertext below is actually a link and it is encrypted using the Vignere cipher The link is encrypted in blocks of four bytes Moreover the Vignere cipher key is a permutation of the four numbers that you have obtained from observing the decrypted image to obtain the four numbers you simply have to count the number of each meme character and permutate the numbers to get the correct Vignere cipher key"
-ciphertext = encrypt(text)
-print(ciphertext)
-plaintext = decrypt(ciphertext)
+# text = "The ciphertext below is actually a link and it is encrypted using the Vignere cipher The link is encrypted in blocks of four bytes Moreover the Vignere cipher key is a permutation of the four numbers that you have obtained from observing the decrypted image to obtain the four numbers you simply have to count the number of each meme character and permutate the numbers to get the correct Vignere cipher key"
+# ciphertext = encrypt(text)
+# print(ciphertext)
+# plaintext = decrypt(ciphertext)
 
-print(plaintext)
+# print(plaintext)

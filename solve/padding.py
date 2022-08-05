@@ -35,7 +35,7 @@ def remove_padding_v2(block):
     return block, 8-pad
 
 def ecb_encrypt(infile, outfile, key):
-    print('Setting up encrypt mode')
+    # print('Setting up encrypt mode')
     with open(infile, 'rb') as source, open(outfile, 'wb') as dest:
         result = []
 
@@ -50,7 +50,7 @@ def ecb_encrypt(infile, outfile, key):
         dest.close()
 
 def ecb_decrypt(infile, outfile, key):
-    print('Setting up encrypt mode')
+    # print('Setting up encrypt mode')
     with open(infile, 'rb') as source, open(outfile, 'wb') as dest:
         result = []
         
@@ -83,12 +83,12 @@ def ecb(infile,outfile,key,mode):
     
     # ======= encrypts here ========= #
     if mode == 'e':
-        print('Setting up encrypt mode')
+        # print('Setting up encrypt mode')
         ecb_encrypt(infile,outfile,key)
 
     # ======= decrypts here ========= #
     elif mode == 'd':
-        print('Setting up decrypt mode')
+        # print('Setting up decrypt mode')
         ecb_decrypt(infile,outfile,key)
 
     ends_time = time.perf_counter()
