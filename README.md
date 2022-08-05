@@ -1,4 +1,4 @@
-# 50.042 Foundations of Cybersecurity CTF 2022: The Gift That Keeps Giving
+# 50.042 Foundations of Cybersecurity CTF 2022: You Have Been ___!
 
 ![Contest Date: 08.08.2022](https://img.shields.io/badge/Contest%20Date-08.08.2022-lightgrey.svg)
 ![Solve Moment: During The Contest](https://img.shields.io/badge/Solve%20Moment-During%20The%20Contest-brightgreen.svg)
