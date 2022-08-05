@@ -4,9 +4,26 @@
 ![Solve Moment: During The Contest](https://img.shields.io/badge/Solve%20Moment-During%20The%20Contest-brightgreen.svg)
 ![Score: 1](https://img.shields.io/badge/Score-1-brightgreen.svg)
 
+## Members
+Ho Jun Hui Nicholas 1005001
+
+Lawrence Kevin Sagaya Anthony 1005002
+
+Melodie Chew En Qi 1005319
+
+Tan Li Ling 1005403
+
+Adelle Chan Min Hui 1005418
+
+
 ## Challenge Description
 
-> Lorem ipsum
+Challengers are expected to solve a riddle to get a phrase (a string) and convert that string into an integer. However the integer is very large, and the key (an integer) is the first 20 digits of the integer. 
+Alternatively, challengers can decrypt paragraph 2 encrypted with the Playfair cipher to obtain the info for the flag.
+
+Riddle: 
+Alice, a very stingy potato, is dehydrated from skating under the scorching sun for too long. What is Alice now? (Tips: A punny phrase)
+
 
 
 ## Attached Files
