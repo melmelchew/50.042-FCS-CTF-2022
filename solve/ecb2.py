@@ -7,19 +7,17 @@ blocksize=64
 blocksize_bytes = 8 # use bytes as python can only read whole bytes at a time, so doesnt matter
 
 
-def encrypt_blocks(plain_block, key):
-    if len(plain_block) < blocksize_bytes:
+def encrypt_blocks(block_in_text, key):
+    if len(block_in_text) < blocksize_bytes:
         print('Padding generating')
-        bytes_append = blocksize_bytes - len(plain_block)
-        plain_block += bytes(bytes_append for i in range(bytes_append))
-    # Big endian format, MSB at begining
-    integer_format = int.from_bytes(plain_block, byteorder='big')
-    return present(integer_format, key)
+        bytes_append = blocksize_bytes - len(block_in_text)
+        block_in_text += bytes(bytes_append for i in range(bytes_append))
+    block_in_int = int.from_bytes(block_in_text, byteorder='big')
+    return present(block_in_int, key)
 
-def decrypt_blocks(plain_block, key):
-    # Big endian format, MSB at begining
-    integer_format = int.from_bytes(plain_block, byteorder='big')
-    return present_inv(integer_format, key)
+def decrypt_blocks(block_in_text, key):
+    block_in_int = int.from_bytes(block_in_text, byteorder='big')
+    return present_inv(block_in_int, key)
 
 def remove_padding_v2(block):
     # PKCS7 standard
@@ -41,43 +39,43 @@ def ecb_encrypt(infile, outfile, key):
     with open(infile, 'rb') as source, open(outfile, 'wb') as dest:
         result = []
 
-    while True:
-        byte = source.read(blocksize_bytes)
-        if not byte:
-            break
-        encrypted = encrypt_blocks(byte, key)
-        dest.write(encrypted.to_bytes(8, byteorder='big'))
-    
-    source.close()
-    dest.close()
+        while True:
+            byte = source.read(blocksize_bytes)
+            if not byte:
+                break
+            encrypted = encrypt_blocks(byte, key)
+            dest.write(encrypted.to_bytes(8, byteorder='big'))
+        
+        source.close()
+        dest.close()
 
 def ecb_decrypt(infile, outfile, key):
     print('Setting up encrypt mode')
     with open(infile, 'rb') as source, open(outfile, 'wb') as dest:
         result = []
         
-    print('Setting up decrypt mode')
+        print('Setting up decrypt mode')
 
-    #====== to delete for them=======#
-    while True:
-        byte = source.read(blocksize_bytes)
-        if not byte:
-            break
-        decrypted = decrypt_blocks(byte, key)
-        result.append(decrypted)
-    #====== to delete for them=======#
+        #====== to delete for them=======#
+        while True:
+            byte = source.read(blocksize_bytes)
+            if not byte:
+                break
+            decrypted = decrypt_blocks(byte, key)
+            result.append(decrypted)
+        #====== to delete for them=======#
 
-    # ========= Remember to add the padding back here ====== #
-    # given because the type of padding is specific to our problem
-    # print(result[-1])
-    result[-1], writingbits = remove_padding_v2(result[-1])
-    # print(result[-1])
-    for i in range(len(result)-1):
-        dest.write(result[i].to_bytes(8, byteorder='big'))
-    dest.write(result[-1].to_bytes(writingbits, byteorder='big'))
-    
-    source.close()
-    dest.close()
+        # ========= Remember to add the padding back here ====== #
+        # given because the type of padding is specific to our problem
+        # print(result[-1])
+        result[-1], writingbits = remove_padding_v2(result[-1])
+        # print(result[-1])
+        for i in range(len(result)-1):
+            dest.write(result[i].to_bytes(8, byteorder='big'))
+        dest.write(result[-1].to_bytes(writingbits, byteorder='big'))
+        
+        source.close()
+        dest.close()
 
 def ecb(infile,outfile,key,mode):
 

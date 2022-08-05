@@ -17,6 +17,8 @@ def encrypt(text, key):
     print(textArr)
     return textArr
 
+# #https://www.youtube.com/watch?v=WstOprNWMpA
+
 # def decrypt(text, key):
 #     textArr = bytearray(text)
 #     for i in range(len(textArr)):

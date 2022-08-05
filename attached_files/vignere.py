@@ -18,4 +18,3 @@ def encrypt(text, key):
     return textArr
 
 
-
