@@ -12,12 +12,10 @@ def encrypt_blocks(plain_block, key):
         print('Padding generating')
         bytes_append = blocksize_bytes - len(plain_block)
         plain_block += bytes(bytes_append for i in range(bytes_append))
-    # Big endian format, MSB at begining
     integer_format = int.from_bytes(plain_block, byteorder='big')
     return present(integer_format, key)
 
 def remove_padding_v2(block):
-    # PKCS7 standard
     print('block is ', hex(block))
     pad = block & 0xff
     print('Testing pad with value ', pad)
@@ -48,7 +46,7 @@ def ecb_encrypt(infile, outfile, key):
 
 def ecb_decrypt(infile, outfile, key):
     print('Setting up encrypt mode')
-    # write the while loop required for decryption
+    # TODO: write the while loop required for decryption
     with open(infile, 'rb') as source, open(outfile, 'wb') as dest:
         result = []
 
@@ -70,7 +68,7 @@ def ecb(infile,outfile,key,mode):
     print('Setting up encrypt mode')
     ecb_encrypt(infile,outfile,key)
 
-    # ======= decrypts here ========= #
+    # ======= TODO: decrypts here ========= #
 
     ends_time = time.perf_counter()
     print('Total time ',ends_time - starts_time)
