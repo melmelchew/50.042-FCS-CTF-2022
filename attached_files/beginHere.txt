@@ -1,5 +1,5 @@
-This txt file contains 3 paragraphs. This first paragraph contains instructions for this challenge. The second paragraph below contains info for the flag, encrypted using Vignere cipher, could be decreypted using the key found from the encrypted image file. The third paragraph is encrypted with Playfair cipher, contains the answer to the riddle (key 1). This third paragraph is optional, is an alternative solution to this challenge for challengers who can’t solve the riddle.
-
-rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
+This txt file contains 3 paragraphs. This first plaintext paragraph contains instructions for this challenge. The second paragraph below contains info for the flag, encrypted using Vigenere cipher, and can be decreypted using the key found from the encrypted image file. The third paragraph is encrypted with Playfair cipher, contains the answer to the riddle (key 1). This third paragraph is optional, is an alternative solution to this challenge for challengers who can’t solve the riddle.
 
 b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
+
+rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
