@@ -1,5 +1,11 @@
+=====First para start=====
 This txt file contains 3 paragraphs. This first plaintext paragraph contains instructions for this challenge. The second paragraph below contains info for the flag, encrypted using Vigenere cipher, and can be decreypted using the key found from the encrypted image file. The third paragraph is encrypted with Playfair cipher, and it contains the answer to the riddle (key 1), alongside hints on how to get the Vigenere key (key 2). This third paragraph is optional, is an alternative solution to this challenge for challengers who can’t solve the riddle.
+====First para end=====
 
+=====Second para start=====
 b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
+====Second para end=====
 
+=====Third para start=====
 rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
+====Third para end=====
