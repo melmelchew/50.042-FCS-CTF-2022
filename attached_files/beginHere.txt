@@ -1,11 +1,12 @@
 =====First para start=====
-This txt file contains 3 paragraphs. This first plaintext paragraph contains instructions for this challenge. The second paragraph below contains info for the flag, encrypted using Vigenere cipher, and can be decreypted using the key found from the encrypted image file. The third paragraph is encrypted with Playfair cipher, and it contains the answer to the riddle (key 1), alongside hints on how to get the Vigenere key (key 2). This third paragraph is optional, is an alternative solution to this challenge for challengers who can’t solve the riddle.
+This txt file contains 3 paragraphs. This first plaintext paragraph contains instructions for this challenge. The answer to the riddle and a hint to getting the flag  are in paragraph 2, a ciphertext encrypted using playfair. If you can solve the riddle or know how to get the flag, you need not decrypt this paragraph. Paragraph 3 is a ciphertext that brings you to the flag when decrypted.
 ====First para end=====
 
-=====Second para start=====
-b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
+=====Second para start (optional)=====
+
+rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
 ====Second para end=====
 
 =====Third para start=====
-rjabsxycsptyjcsheeobnxbdijqtpfyjrjadfsjcspdyqebomynxbdpybkovbknspfsijsnxdohwutyjaxxnlirjbyjhodtcdhrfctrjbonsnftdmdtwqpaensgqmenpkjjkwpevyjrnmtjtybspjcxgilctadfsjcpmjenxfuctkwpesjkokjrjajkysmwkcastrjepetwfbujteqdfodaitmnkdqctxglirjaeadtwqpaehnbfjykkeqdfosjcjkwpkxlccttxkyxnkrovfcybytemxkppjckxlcctkjabhmocochmcpbdyjpcsitawrypepjyjckxlccttpljjyrjadmttcerxgilctadfsjcpmje
+b'jwuuu=04yzx3{rvywef3ern4yduhjBwBYvuTruO\\OsB'
 ====Third para end=====
